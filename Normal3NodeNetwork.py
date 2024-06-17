@@ -33,11 +33,11 @@ network.add("Load", "My load",
 # Newton Raphson Power Flow
 network.pf()
 
-# # Active power flow on the lines
-# network.lines_t.p0
+# Active power flow on the lines
+network.lines_t.p0
 
-# # Voltage angle on buses
-# network.buses_t.v_ang * 180/ np.pi
+# Voltage angle on buses
+network.buses_t.v_ang * 180/ np.pi
 
-# # Voltage magnitudes
-# network.buses_t.v_mag_pu
+# Voltage magnitudes
+network.buses_t.v_mag_pu
